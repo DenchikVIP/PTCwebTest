@@ -1,0 +1,14 @@
+C:\Users\Den\source\repos\Stud\Stud\bin\Debug\Stud.exe.config
+C:\Users\Den\source\repos\Stud\Stud\bin\Debug\Stud.exe
+C:\Users\Den\source\repos\Stud\Stud\bin\Debug\Stud.pdb
+C:\Users\Den\source\repos\Stud\Stud\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Den\source\repos\Stud\Stud\bin\Debug\itextsharp.dll
+C:\Users\Den\source\repos\Stud\Stud\bin\Debug\itextsharp.xml
+C:\Users\Den\source\repos\Stud\Stud\obj\Debug\Stud.csproj.AssemblyReference.cache
+C:\Users\Den\source\repos\Stud\Stud\obj\Debug\MedKarta.Form1.resources
+C:\Users\Den\source\repos\Stud\Stud\obj\Debug\Stud.Properties.Resources.resources
+C:\Users\Den\source\repos\Stud\Stud\obj\Debug\Stud.csproj.GenerateResource.cache
+C:\Users\Den\source\repos\Stud\Stud\obj\Debug\Stud.csproj.CoreCompileInputs.cache
+C:\Users\Den\source\repos\Stud\Stud\obj\Debug\Stud.csproj.CopyComplete
+C:\Users\Den\source\repos\Stud\Stud\obj\Debug\Stud.exe
+C:\Users\Den\source\repos\Stud\Stud\obj\Debug\Stud.pdb

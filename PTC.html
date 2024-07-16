@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Design by foolishdeveloper.com -->
+    <title>Glassmorphism login Form Tutorial in html css</title>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <style media="screen">
+      *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b1116;
+}
+body {
+  background-image: url('gtr.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.shape:first-child{
+    background: linear-gradient(
+        #1845ad,
+        #23a2f6
+    );
+    left: -80px;
+    top: -50px;
+}
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #abeba8,
+        #f09819
+    );
+    right: -30px;
+    bottom: -50px;
+}
+form{
+    height: 1180px;
+    width: 450px;
+    background-color: rgb(56, 189, 195);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 58%;
+    left: 50%;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+input[type=radio] {
+    border: 0px;
+    width: 5%;
+    height: 15px;
+	display: inline;
+	padding: 30px;
+	margin-bottom: 1px;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.radio-buttons {
+    padding: 1rem;
+	width: 1300px;
+    margin-bottom: 1rem;
+}
+
+label[for="TypeOfTC"] {
+    display: inline;
+	padding: 9.45px;
+    font-size: 18px;
+    font-weight: 500;
+	margin-left: 31.5px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+label[for="category-trail"] {
+    display: inline;
+	padding: 12px;
+    font-size: 18px;
+    font-weight: 500;
+	margin-left: 6px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+	margin-top: -25px;
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form action="" class="form" id="add-form">
+        <h3>Регистрация ПТС</h3>
+
+        <label for="Id">Регистрационный знак</label>
+        <input type="text" placeholder="A000AA46*" id="Id">
+
+        <label for="Name">Имя</label>
+        <input type="text" placeholder="Иван" id="Name">
+
+        <label for="Surname">Отчество</label>
+        <input type="text" placeholder="Иванович" id="Surname">
+
+        <label for="Lastname">Фамилия</label>
+        <input type="text" placeholder="Иванов" id="Lastname">
+
+        <label for="year">Дата рождения</label>
+        <input type="text" placeholder="2004 год рождения*" id="year">
+		
+		<label for="vin">Идентификационный номер</label>
+        <input type="text" placeholder="12345678912345678" id="Lastname">
+		
+        <label for="TypeOfTC">Тип транспортного средства</label>
+		
+			<div class="radio-buttons">
+                <div class="category-label">
+                    <label for="TypeOfTC">Мотоцикл</label>
+                </div> 
+				<input type="radio" id="motocycle" name="TypeOfTC" value="Мотоцикл" checked="checked"/>
+                <div class="category-label">
+                    <label for="TypeOfTC">Легковой</label>
+                </div>              
+				<input type="radio" id="light" name="TypeOfTC" value="Легковой"/>
+                <div class="category-label">
+                    <label for="TypeOfTC">Грузовой</label>
+                </div>
+                <input type="radio" id="cargo" name="TypeOfTC" value="Грузовой"/>    
+				<div class="category-label">
+                    <label for="TypeOfTC">Автобус</label>
+                </div>              
+				<input type="radio" id="autobus" name="TypeOfTC" value="Автобус"/>
+				<div class="category-label">
+                    <label for="TypeOfTC">С прицепом</label>
+                </div>              
+				<input type="radio" id="trailer" name="TypeOfTC" value="С прицепом"/>
+			</div>
+			
+			
+		
+        <button type="submit" class="sent-btn">Подтвердить</button>
+    </form>
+	<script>
+		localStorage.setItem('Id1', document.getElementById('Id').value);
+		localStorage.setItem('Name1', document.getElementById('Name').value);
+		localStorage.setItem('Surname1', document.getElementById('Surname').value);
+        localStorage.setItem('Lastname1', document.getElementById('Lastname').value);
+        localStorage.setItem('year1', document.getElementById('year').value);
+        localStorage.setItem('vin1', document.getElementById('vin').value);
+        localStorage.setItem('TypeOfTCl', document.getElementById('TypeOfTC').value);
+		
+		window.location.href='print.html';
+	</script>
+</body>
+</html>

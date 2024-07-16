@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<persons>
+  <person name1="a">
+    <name2>b</name2>
+    <name3>c</name3>
+    <data>5 апреля 2024 г.</data>
+    <vin>12345678912345678</vin>
+    <reg>12345678</reg>
+    <typeTC>Легковой</typeTC>
+  </person>
+</persons>
